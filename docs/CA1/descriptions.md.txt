@@ -1,0 +1,13 @@
+## Short description (59 characters)
+One-thumb endless runner: swipe lanes and dodge red blocks.
+
+## Long description
+Pixel Sprint is an ultra-simple one-thumb endless runner. Your character runs forward on its own. Swipe left or right to switch lanes and dodge the red blocks, and run as far as you can. The longer you stay alive, the faster you go.
+
+- Easy swipe controls in portrait mode
+- Short runs of 30 to 60 seconds
+- One street environment built from simple road pieces
+- Your best score is saved on your phone
+- Offline play, no ads, no purchases
+
+Note: the CA1 build contains the title screen only. The features above are the planned scope.

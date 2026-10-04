@@ -1,0 +1,20 @@
+# Pixel Sprint: Data-use statement
+Build described: v0.2.0 (versionCode 2), CA1 title-screen build, tested on Samsung Galaxy S22 (SM-S901B), Android 16.
+
+**Data collected:** None. The app collects no personal data, identifiers, analytics or usage data.
+
+**Data stored on the device:** None in this build. The planned game will keep a best score locally in the app's private storage. Uninstalling the app removes it.
+
+**Network activity:** None. The code makes no network requests. The APK does declare android.permission.INTERNET (see below), but no code uses it.
+
+**Third-party SDKs:** None.
+
+**Permissions requested** (from adb shell dumpsys package):
+- android.permission.INTERNET: added by the build, unused by game code. I plan to set Internet Access to Auto and rebuild before any public release.
+- com.ahmedsekhni.pixelsprint.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: added automatically by Android for the app's own internal receivers. It collects nothing.
+
+**How this would be declared on Google Play (Data safety form):**
+- Data collection and security practices: no data collected.
+- Data sharing: none.
+- Privacy policy URL: required before release on closed, open or production tracks.
+- The form is required for those tracks; apps only on the internal testing track are exempt.

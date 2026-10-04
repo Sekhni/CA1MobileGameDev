@@ -1,0 +1,14 @@
+| Asset | Spec | Status | Notes |
+
+| App icon | 512x512, 32-bit PNG with alpha, up to 1024 KB | planned | No rounded corners, Play masks it |
+| Feature graphic | 1024x500, JPEG or 24-bit PNG, no alpha | planned | Title and red blocks |
+| Phone screenshots | 2 to 8; each side 1080 to 7680 px; JPEG or 24-bit PNG; 9:16 portrait | planned | Gameplay first |
+
+## Screenshot plan (portrait)
+1. "Dodge the blocks": mid-run, character in a lane, red block ahead, score clear of the notch.
+2. "Swipe to switch lanes": character moving between the two lanes.
+3. "Faster the longer you last": later in a run, blocks closer together.
+4. "Try again": crash screen with tap-to-retry and best score.
+
+Source: in-game captures at 1080 px or more taken with adb screencap. Icon from the game's key art.
+Sizes checked against the Play Console help page "Add preview assets": https://support.google.com/googleplay/android-developer/answer/9866151

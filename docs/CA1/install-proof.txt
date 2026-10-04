@@ -1,0 +1,15 @@
+2026-10-04 | Samsung Galaxy S22 (SM-S901B), Android 16 | PixelSprint-0.2.0-arm64.apk
+Performing Streamed Install
+Success
+    versionCode=2 minSdk=26 targetSdk=36
+    minExtensionVersions=[]
+    versionName=0.2.0
+    apkSigningVersion=2
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE 
+PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    signatures=PackageSignatures{80d6104 version:2, signatures:[ee4221b6], past signatures:[]}
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE 
+PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    Version: 2.1.1
+SM-S901B
+16

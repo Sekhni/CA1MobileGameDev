@@ -1,0 +1,20 @@
+# Development Journal: Pixel Sprint
+
+## Week 1: Toolchain and project
+- Installed Unity 6.6 with Android Build Support, enabled USB debugging on a Galaxy S22 (SM-S901B, Android 16).
+- First development build installed with adb. The [Boot] line showed Vulkan, 1080x2340.
+- Problem: my build folder was misspelled "Bulids", so adb could not find the APK. I found it with a dir search and renamed it.
+- Moving to a new PC meant re-authorising USB debugging, adding adb to PATH, and fixing a Git SSH permission error.
+- Chose an endless runner because it has one verb and a small scope.
+
+## Week 2: Signing and release build
+- Created a release keystore outside the repo and documented alias, validity and SHA-256 with no passwords.
+- Built a release-signed APK (IL2CPP, ARM64, App Bundle off) and installed it with adb install -r. dumpsys confirmed versionCode 2 and versionName 0.2.0.
+- Debug-signed and release-signed builds cannot replace each other, so I uninstalled first.
+- Unity's gitignore ignores *.apk, so I copied the APK to releases/ and added an exception.
+- The title screen showed in the Editor but not on the phone until I rebuilt, because the phone only runs the last built APK.
+
+## Week 4: Publication awareness
+- The APK requests android.permission.INTERNET although the game makes no network calls. I documented this in the privacy statement.
+- Wrote the store-asset checklist, descriptions and data-use statement from the real APK.
+
